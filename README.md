@@ -7,7 +7,7 @@ This is the code of SGERA: Stein-Guided ECG-Report Alignment for ECG Representat
 Electrocardiogram (ECG) representation learning via ECG-report alignment is often hindered by the inherent structural and statistical divergence between signals and natural language. Existing methods struggle to bridge this gap with simple contrastive objectives but struggle with distribution dependencies between heterogeneous features. To address this, we propose **SGERA** (**S**tein-**G**uided **E**CG-**R**eport **A**lignment), which leverages the unique properties of Stein kernels to provide a more rigorous geometric alignment in the latent space: **instance-level** alignment via a Stein-RBF kernel enforces pairwise consistency between ECG and report embeddings, and **distribution-level** alignment via a Stein-Score kernel captures higher-order interactions for global alignment. Furthermore, we introduce an ECG-Report matching task with a Hard Sample Mining strategy to refine discriminative boundaries. Experiments across three public datasets demonstrate that SGERA significantly outperforms state-of-the-art SSL methods in zero-shot classification, linear probing, and transfer learning, proving the superiority of Stein-guided alignment in handling complex medical modalities.
 
 We provide the Motivation & Framework of our SGERA here:
-![image](Framework.png)
+![image](framework.png)
 
 We also provide the details of Hard Sample Mining here:
 ![image](HSM.png)
