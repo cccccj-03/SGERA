@@ -1,4 +1,4 @@
-# SGERA
+# SGERA —— ICML 2026 Poster
 SGERA: Stein-Guided ECG-Report Alignment for ECG Representation Learning， ICML 2026
 
 This is the code of SGERA: Stein-Guided ECG-Report Alignment for ECG Representation Learning. This paper is accepted by ICML 2026. The paper link will be released soon. 
