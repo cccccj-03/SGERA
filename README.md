@@ -28,17 +28,17 @@ We preprocessed downstream datasets and split the dataset into train/val/test se
 We also provide the train/val/test split csv file in finetune/data_split
 
 ## Pre-training
-bash MERL/pretrain/launch.sh
+bash ./pretrain/launch.sh
 
 ## Finetuning
 
 **For zeroshot:**
 
-cd MERL/zeroshot
+cd ./zeroshot
 bash zeroshot.sh
 
 **For Linear probing:**
-cd MERL/finetune/sub_script
+cd ./finetune/sub_script
 bash run_all_linear.sh
 
 ## Acknowledgement
